@@ -14,7 +14,7 @@ import styles from './styles/index.module.scss'
 import type { CardDTO } from './types/card'
 
 function index() {
-console.log('index====>')
+console.log('index====>');
 //   const imgSelector = useRecoilValue(imageData);
   const imgSelector = useRecoilValueLoadable(imageData);
   const [open, setOpen] = useState<boolean>(false);//이미지 상세 다이얼로그 발생(관리) State
